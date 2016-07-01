@@ -1,0 +1,16 @@
+Molecular Surface Package Version 3.9.3 - March 2006
+The tar file has been compressed by the UNIX compress command.
+Type uncompress msp.tar.Z to convert it to msp.tar.
+Use tar -xvf msp.tar to extract everything from the .tar archive.
+Use WinZip to extract from the .zip archive.
+Use StuffIt to extract from the .sit archive.
+You will need to create the bin subdirectory yourself.
+If you do not have a C compiler, copy the 4 executable files
+from the appropriate directory (mac, win, sgi or sun) to the bin directory.
+If you do have a C compiler, cd to the src subdirectory
+and type "make all" from a command prompt.
+The Windows/Intel executables were created in the Cygwin environment
+and need at least the cygwin1.dll to run. 
+The Mac executables need Mac OS X.
+Please write me at connolly@biohedron.com if you have any questions.
+Mike Connolly
