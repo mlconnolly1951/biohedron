@@ -1,0 +1,2 @@
+pti -= residue == HOH
+pti angle = 0.75

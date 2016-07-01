@@ -1,0 +1,15 @@
+light_source -0.5 1.0 1.0
+shading_model 0.2 0.2 0.4 0.2 2.0
+molecule crn ../pdb/1crn.pdb
+tolerance 0.25
+elbow 2.5
+connect crn # creates sticks
+crn color = grey
+oxygens = atom matches O
+oxygens color = red
+nitrogens = atom matches N
+nitrogens color = blue
+sulfurs = atom matches S
+sulfurs color = yellow
+ball_and_stick
+atom_coloring

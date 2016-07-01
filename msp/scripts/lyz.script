@@ -1,0 +1,10 @@
+rotation 45.0 0.0 1.0 0.0
+molecule lyz ../pdb/2lyz.pdb
+lyz -= residue matches HOH
+connect lyz
+lyz color = red
+ball_and_stick
+atom_coloring
+read_surface lyz.pqms
+component_coloring white green blue
+component_opacity 0.5 1.0 1.0

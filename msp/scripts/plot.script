@@ -1,0 +1,10 @@
+molecule pti ../pdb/4pti.pdb
+pti color = black
+oxygens = atom matches O
+oxygens color = red
+nitrogens = atom matches N
+nitrogens color = blue
+sulfurs = atom matches S
+sulfurs color = yellow
+read_polyhedron pti.vet
+atom_coloring

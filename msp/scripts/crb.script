@@ -1,0 +1,15 @@
+rotation 90.0 0.0 1.0 0.0
+overlap_hue green
+molecule crb
+surface crb.pqms
+uniform_coloring brown brown
+solid_shade 200
+molecule retinol ../pdb/1crb.pdb
+retinol -= residue != RTL
+oxygens = atom matches o
+oxygens color = red
+carbons = atom matches c
+carbons color = black
+surface retinol.pqms
+atom_coloring
+no_clipping

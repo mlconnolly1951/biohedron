@@ -1,0 +1,10 @@
+molecule crn ../pdb/1crn.pdb
+crn color = grey
+oxygens = atom matches O
+oxygens color = red
+nitrogens = atom matches N
+nitrogens color = blue
+sulfurs = atom matches S
+sulfurs color = yellow
+read_surface crn.pqms
+atom_coloring

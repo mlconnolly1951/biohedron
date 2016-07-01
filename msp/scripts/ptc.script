@@ -1,0 +1,27 @@
+# global commands
+shading_model 0.2 0.2 0.4 0.2 2.0
+rotation 40.0 0.0 1.0 0.0
+define_color dark_red 0.5 0.0 0.0
+define_color dark_green 0.0 0.5 0.0
+define_color grey_green 0.1 0.3 0.1
+define_color grey_red 0.3 0.1 0.1
+# enzyme
+molecule ptce ../pdb/2ptc.pdb
+source ptce.sel
+tolerance 0.25
+elbow 2.5
+connect ptce # creates sticks
+ball_and_stick
+uniform_coloring dark_green
+read_surface ptce.pqms
+uniform_coloring green grey_green 
+# inhibitor
+molecule ptci ../pdb/2ptc.pdb
+source ptci.sel
+tolerance 0.25
+elbow 2.5
+connect ptci # creates sticks
+ball_and_stick
+uniform_coloring dark_red
+read_surface ptci.pqms
+uniform_coloring red grey_red

@@ -1,0 +1,14 @@
+molecule crn ../pdb/1crn.pdb
+connect crn # creates bonds
+crn color = grey
+oxygens = atom matches O
+oxygens color = red
+nitrogens = atom matches N
+nitrogens color = blue
+sulfurs = atom matches S
+sulfurs color = yellow
+ball_and_stick
+atom_coloring 
+read_surface crn.pqms
+uniform_opacity 0.5 0.5
+uniform_coloring green
