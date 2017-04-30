@@ -1,0 +1,57 @@
+/* Molecular Surface Package copyright 1996 by Michael L. Connolly */
+/* February 16, 2006 */
+
+#define EPSILON  0.001
+#define MS_INFINITY 1000000.0
+#define DELTA_WIDTH 0.5
+#define FINENESS 1.35
+#define N_LATITUDE 9				/* for sampling a sphere */
+#define N_LONGITUDE 18				/* for sampling a sphere */
+#define SAFE_ALPHA 0.5
+#define DEFAULT_CONNECTED 1
+#define DEFAULT_CUBE_WIDTH 2.0
+#define DEFAULT_SPHERE_RADIUS 6.0
+#define SINGLE_LEVEL 0.5
+#define DOUBLE_LEVEL 0.0
+#define DEFAULT_DENSITY_TOLERANCE 0.1
+#define DEFAULT_PROBE            1.5
+#define DEFAULT_OMEGA_RADIUS     6.0
+#define DEFAULT_BIT_WIDTH        1.0
+#define DEFAULT_CUBE_WIDTH       2.0
+#define DEFAULT_THICKNESS        1.5
+#define DEFAULT_TILTX 0.0
+#define DEFAULT_TILTY 0.0
+#define DEFAULT_SCREEN 512
+#define DEFAULT_STEREO 3.0
+#define DEFAULT_ELBOW 2.0
+#define DEFAULT_BALL_RADIUS 0.5
+#define DEFAULT_BOND_RADIUS 0.3
+#define DEFAULT_PURGE_FREQUENCY  100
+#define DEFAULT_PASS 4
+#define DEFAULT_WEIGHT 0.58
+#define DEFAULT_LARGE 5.0
+#define DEFAULT_OUTER_WIDTH  1.0
+#define DEFAULT_INNER_WIDTH  0.2
+#define DEFAULT_CAVITY_WIDTH 1.5
+#define DEFAULT_BOND_WIDTH   1.5
+#define DEFAULT_ATOM_RATIO 0.2
+#define DEFAULT_BOND_RATIO 0.1
+#define DEFAULT_TOLERANCE 0.2
+#define DEFAULT_ALIGNMENT 1.0
+#define DEFAULT_COALESCE 0.05
+#define DEFAULT_DENSITY 5.0
+#define DEFAULT_SRN 2
+#define DEFAULT_ATOM_RADIUS 2.0
+#define DEFAULT_COVALENT 1.0
+#define DEFAULT_HUE 1
+#define DEFAULT_OPACITY 1.0
+#define DEFAULT_ANGLE 1.0
+#define DEFAULT_ALPHA 1.0
+#define DEFAULT_CAVITY_ALPHA 0.5
+#define STANDARD_INITIAL 1
+#define STANDARD_INCREMENT 1
+#define ELEMENT_BLOCK_SIZE 1024
+#define RESERVE_TANK 8192
+#define	DEFAULT_FREQUENCY 8
+#define	DEFAULT_SECTOR 18
+#define	DEFAULT_BIN 4
